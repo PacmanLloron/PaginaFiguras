@@ -1,0 +1,30 @@
+body{
+    background-image: url("https://i.imgur.com/i8mqU3Mh.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 255, 170);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.contenedor_tit{
+    display: flex;
+    flex-direction: column;
+    /* width: max-content; */
+    box-shadow: 0 0 10px rgba(55, 139, 218, 0.788);
+    border-radius: 10px;
+}
+
+.btn_inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
